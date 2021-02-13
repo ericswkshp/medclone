@@ -9,15 +9,24 @@ html {
 
 body {
   background-image: url(../img/mountains2.jpg);
+  background-repeat: no-repeat;
+  
 }
 
-/* HEADER */
+HEADER
 .logo {
   width: 200px;
   position: fixed;
   z-index: 1000;
-  top: 2rem;
+  top: 2.4rem;
   left: 2rem;
+  border-radius: .5rem;
+}
+
+header {
+  position: absolute;
+  top: 0;
+
 }
 
 nav ul {
@@ -41,13 +50,71 @@ a {
   color: #fff;
 }
 
+.greeting-container {
+  background-color: rgba(82, 56, 56, .8);
+  border-radius: .5rem;
+  width: 50%;
+  margin-top: 30%;
+  left: 5%;
+  text-align: center;
+  padding: 2rem;
+}
+
+.greeting-header {
+  color: #fff;
+  font-size: 3rem;
+  margin-bottom: 2rem;
+}
+
+.greeting-message {
+  color: #fff;
+  font-size: 2rem;
+}
 
 
+/* SECTION 2 */
+.section-2-container {
+  background-color: #fff;
+  text-align: center;
+  margin-top: 25rem;
+  padding: 3rem 0;
+}
+ 
+.far, .fas {
+    font-size: 6rem;
+    color: #fff;
+    border-radius: 1rem;
+}
 
+.section-2-blocks {
+  display: inline-block;
+  margin: 3rem;
+}
 
+.icon1 {
+  background-color: royalblue;
+  padding: 2rem;
+}
 
+.icon2 {
+  background-color: orange;
+  padding: 2rem;
+}
 
+.icon3 {
+  background-color: khaki;
+  padding: 2rem;
+}
 
+.icon4 {
+  background-color: yellowgreen;
+  padding: 2rem;
+}
+
+.icon-text {
+  font-size: 2rem;
+  
+}
 
 
 
