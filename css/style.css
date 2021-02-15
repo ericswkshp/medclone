@@ -35,6 +35,7 @@ header {
   top: 0;
   position: fixed;
   width: 100%;
+  z-index: 900;
 }
 
 nav ul {
@@ -198,4 +199,39 @@ a {
 .urgent-care-text {
   padding: 10rem 5rem 15rem 10rem;
   font-size: 3rem;
+}
+
+/* LOCATION PAGE */
+
+.location-container {
+  background-color: rgba(255, 255, 255, 0.8);
+  border-radius: 1rem;
+  text-align: center;
+  width: 90%;
+  margin: 20rem auto 0 auto;
+  padding: 1rem;
+}
+
+.location {
+  background-color: rgb(82, 56, 56);
+  border-radius: 1rem;
+  color: #fff;
+  font-size: 2rem;
+  font-weight: bold;
+  width: 40%;
+  display: inline-block;
+  margin: 2rem;
+  padding: 2rem;
+}
+
+.location:hover {
+  background-color: #958787;
+}
+
+
+
+.location-header-text {
+  color: #fff;
+  font-size: 4rem;
+  margin-bottom: 1rem;
 }
